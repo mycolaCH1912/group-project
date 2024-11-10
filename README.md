@@ -4,8 +4,8 @@
 This is a first group project which is called __"recipe app"__.On this site has will recipes for cooking.
 
 ### Who made this site?
-* mycolaCH1912
-* Dima601
-* 
+* _mycolaCH1912_
+* _Dima601_
+  
  ### To build the site, we used: 
  *__HTML__*,*__CSS__*, and *__Java Script__*.
