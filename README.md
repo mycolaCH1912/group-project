@@ -1,6 +1,6 @@
 ﻿# Recipe app
 ### Waht is this project?
-this is a first group project which is called __"recipe app"__.
+This is a first group project which is called __"recipe app"__.On this site has will recipes for cooking.
 ![ilustration]()
 ### Who made this site?
 * mycolaCH1912
