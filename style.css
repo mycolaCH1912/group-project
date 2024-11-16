@@ -1,5 +1,4 @@
 body{
-    background-image: url(/DALL·E\ 2024-11-09\ 17.01.58\ -\ A\ background\ image\ for\ a\ recipe\ website.\ Simple\ and\ clean\,\ featuring\ a\ light\ wooden\ texture\ with\ subtle\ kitchen-themed\ elements\ like\ faint\ outlines\ of.webp);
     margin: 0;
     font-family: Arial, sans-serif;
   }
@@ -48,4 +47,8 @@ body{
 
   .navbar ul li a:hover {
     color: #ddd;
+  }
+  h1{
+    text-align: center;
+    font-size: 100px;
   }
