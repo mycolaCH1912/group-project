@@ -1,50 +1,110 @@
+<<<<<<< HEAD
+.logo{
+    position: absolute;
+    left: 20px; /* Сместите логотип влево */
+    font-weight:700;/* робить текст жирним */
+    font-size:27px
+}
+ 
+.head{
+    font-weight:bold;
+    text-align:center;
+}
+=======
 body{
     margin: 0;
     font-family: Arial, sans-serif;
   }
+>>>>>>> 715f37cbe18c0d6c334cb166974171f5064816ac
 
-  /* Контейнер для меню */
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
+.h1{
+    font-size:80px;
+    margin:0;
+}
+
+.p{
+    font-size:20px;
+    margin:0;
+    margin-bottom:70px;
+}
+
+
+header{
+    display:flex;
     align-items: center;
-    padding: 0 20px;
-    height: 60px;
-  }
+    justify-content: center;
+}
 
-  /* Логотип */
-  .navbar {
-    font-size: 24px;
+nav{
+    display:flex;
+    gap:29px;
+    margin:0 auto;
+    font-size:27px;
     font-weight: bold;
-  }
-  .logo{
-    width: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    height: 50px;
-  }
+}
 
-  /* Стилі для елементів навігації */
-  .navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .navbar ul li {
-    margin-left: 20px;
-  }
-
-  .navbar ul li a {
-    color: #fff;
+nav a{
     text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
+    color:black;
+    transition: all 0.3s ease; 
+}
 
+<<<<<<< HEAD
+.decoration :hover{
+    transition: all 0.3s ease; 
+}
+
+
+.button{
+    margin-top:40px;
+    text-align: center;
+    
+}
+
+input{
+    border-radius:40px;
+    padding:12px;
+    padding-left:30px;
+    font-weight: 700;
+    border:2px solid black;
+}
+
+button{
+    background-color:white;
+    color:black;
+    border:2 px solid black;
+    border-radius:59px;
+    padding:12px 15px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background-color:rgb(193, 207, 207);
+    box-shadow:0px 4px 4px 0px black;
+}
+
+.header :hover{
+    font-size:26px;
+}
+
+img{
+    width:300;
+    height:200;
+}
+
+.line{
+    margin-top:40px;
+    border:2px solid black;  
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-decoration:none;
+}
+=======
   .navbar ul li a:hover {
     color: #ddd;
   }
@@ -56,3 +116,4 @@ body{
     text-align: center;
     font-size: 25px;
   }
+>>>>>>> 715f37cbe18c0d6c334cb166974171f5064816ac
