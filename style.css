@@ -111,12 +111,14 @@ border-radius: 25px;
     display: flex;
     justify-content: center;
     gap:10px;
+    flex-wrap: wrap;
 
 }
 @media (max-width:425px){
     .recipe{
         width:150px;
         height:150px;
+        
     }
     .header{
 font-size:10px;
