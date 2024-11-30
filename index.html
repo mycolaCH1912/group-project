@@ -4,36 +4,185 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"> 
-  <script src="script.js"></script>
-  <title>Рецепти дня </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+  <title>Document</title>
+  
 </head>
 <body>
 
   <div  class="head"> 
           <h1 class="h1">The world of recipes</h1>
-          <p class="p">Легкі рецепти для приготування</p>
+          <p class="p">легкі рецепти для приготування</p>
    </div>
   
-
+   
 <header>
   <nav class="header">
-          <a class="text-link" href="/index.html">Головна</a>
-          <span></span>
-          <a class="text-link" href="/index1.html">Про нас</a>
-          <span></span>
-          <a class="text-link" href="#">Контакти</a>
+    
+          <a class="home_btn" href="home"><span><i class="fa-solid fa-house"></i></span>Головна</a>
+          <span>/</span>
+          <a href="#">Про нас</a>
+          <span>/</span>
+          <a href="#">Контакти</a>
+          <span>/</span>
+          <a href="#">Зміна теми</a>
     </nav>
+</header>
 
   <div class="button">
-          <input class="btn" type="text" placeholder="Ведіть текст">
+          <input type="text" placeholder="Ведіть текст">
           <button class="btn">Пошук</button>
   </div>
-</header>
+
 <div class="line"></div>
-<div class="recipes">
-  <img class="recipe" src="/pasta_mushroom.webp">
-  <img class="recipe" src="/potato_bake.webp">
-  <img class="recipe" src="/pasta_lemon.webp">
+    <!--кардки-->
+<div class='container-cards'>
+  <div class="card" data-id="lemon">
+        <img class="card-img" src="pasta_lemon.webp" alt="" />
+        <h1 class="card-text">PASTA LEMON</h1>
+        <div class="icons">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-sharp-duotone fa-solid fa-star-half"></i>
+  </div>
+
+  <div class="fa-search">
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="other-icons">
+    <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+     <i class="fa-solid fa-eye"></i>
 </div>
+  </div>
+  
+  <div class="card" data-id="mushroom">
+    <img class="card-img" src="pasta_mushroom.webp" alt="" />
+    <h1 class="card-text">PASTA LEMON</h1>
+    <div class="icons">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-sharp-duotone fa-solid fa-star-half"></i>
+    </div>
+    <div class="fa-search">
+      <i class="fas fa-search"></i>
+    </div>
+    <div class="other-icons">
+      <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+       <i class="fa-solid fa-eye"></i>
+  </div>
+</div>
+
+<div class="card" data-id="potato">
+  <img class="card-img" src="potato_bake.webp" alt="" />
+  <h1 class="card-text">PASTA LEMON</h1>
+  <div class="icons">
+      <i class="fa-solid fa-star"></i> 
+  </div>
+  <div class="fa-search">
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="other-icons">
+    <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+     <i class="fa-solid fa-eye"></i>
+</div>
+</div>
+
+<div class="card" data-id="pasta">
+  <img class="card-img" src="pasta_lemon.webp" alt="" />
+  <h1 class="card-text">PASTA LEMON</h1>
+  <div class="icons">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+  </div>
+  <div class="fa-search">
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="other-icons">
+    <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+     <i class="fa-solid fa-eye"></i>
+</div>
+
+</div>
+
+<div class="card" data-id="borch">
+  <img class="card-img" src="pasta_lemon.webp" alt="" />
+  <h1 class="card-text">PASTA LEMON</h1>
+  <div class="icons">
+    <i class="fa-sharp-duotone fa-solid fa-star-half"></i>
+  </div>
+
+    <div class="fa-search">
+     <i class="fas fa-search"></i>
+</div>
+<div class="other-icons">
+  <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+   <i class="fa-solid fa-eye"></i>
+</div>
+
+</div>
+
+
+<div class="card" data-id="dumplings">
+    <img class="card-img" src="pasta_lemon.webp" alt="" />
+     <h1 class="card-text">PASTA LEMON</h1>
+  <div class="icons">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star-half"></i>
+  </div>
+
+    <div class="fa-search">
+      <i class="fas fa-search"></i>
+    </div>
+    <div class="other-icons">
+      <span class="like"><i class="fa-sharp-duotone fa-solid fa-heart"></i></span>
+       <i class="fa-solid fa-eye"></i>
+  </div>
+
+</div>
+</div>
+   
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+
+    <div class="footer-section">
+      <h3>Навигация</h3>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Рецепти</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Контакти</h3>
+      <p>Email:  recipes@gmailcom</p>
+      <p>Телефон: +380123456789</p>
+    </div>
+    <div class="footer-section">
+      <h3>Ми в соц мережах</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+  </div>
+</footer>
+ 
+
+
+ <script src="./script.js"></script>
 </body>
 </html>
