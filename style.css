@@ -65,6 +65,15 @@ button{
     box-shadow:0px 4px 4px 0px black;
 }
 
+.about-section{
+  padding: 40px 20px; /* Відступи */
+  font-size:20px;
+  text-align: center; /* Вирівнювання тексту */
+  border-radius: 10px; /* Закруглені кути */ 
+  margin: 20px auto; /* Центрування секції */
+  max-width: 800px; /* Максимальна ширина секції */
+}
+  
 .header :hover{
     font-size:29px;
 }
